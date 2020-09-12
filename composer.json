@@ -1,0 +1,22 @@
+{
+    "name": "serggio/fizzbuzz",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serggio",
+            "email": "serggio.dev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "FizzBuzzApp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FizzBuzzApp\\Tests\\": "tests/"
+        }
+    }
+}
